@@ -49,7 +49,7 @@ class ProjectListActivity : AppCompatActivity() {
         return when(item.itemId){
             R.id.action_users -> {
                 val emoji = "\uD83D\uDE0A"
-                val message = String.format("Função disponivel apenas na versão paga \n %s", emoji)
+                val message = String.format("Função disponivel apenas na versão paga %s. \nPara mais informações entre em contato através do email \ngiovanileitevitor@gmail.com", emoji)
                 Toast.makeText(this, message, Toast.LENGTH_LONG).show()
                 true
             }
