@@ -41,7 +41,9 @@ Se o device for rotacionado, o aplicativo mantém o estado da tela.
 
 Esta tela só está disponivel na versão paga do projeto.
 Para acessá-la, faça um pix no valor de 150 reais para a chave abaixo:
-Chave Pix: giovanileitevitor@gmail.com
+Chave Pix: +55 11 975313142
+
+<img width="305" alt="Captura de Tela 2023-05-20 às 21 56 01" src="https://github.com/giovanileitevitor/Test-Softteck/assets/27828713/c5c426c9-f086-433b-a4be-e6f4d2ce1ba2">
 
 
 
