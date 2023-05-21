@@ -20,7 +20,7 @@ O **Github Explorer** é um aplicativo simples para listar os repositórios do G
 
 A tela 1 ou tela inicial pode apresentar três estados distintos:
 
-<img width="1053" alt="Captura de Tela 2022-10-06 às 17 23 12" src="https://user-images.githubusercontent.com/11378932/194411231-220c4955-4c68-46e6-8c99-7a5a6693df76.png">
+<img width="1053" alt="print home" src="https://user-images.githubusercontent.com/27828713/239715949-4d260c65-c661-4a71-9d92-79a067f35397.jpeg">
 
 ##### Estado de carregamento
 
