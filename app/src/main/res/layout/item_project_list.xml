@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
     android:layout_marginStart="16dp"
     android:layout_marginTop="4dp"
     android:layout_marginEnd="16dp"
@@ -12,6 +13,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         android:padding="16dp">
 
         <ImageView
@@ -19,6 +23,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
+            android:contentDescription="@string/ctd_icon"
             app:layout_constraintBottom_toBottomOf="@+id/fullnameTextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/nameTextView" />
@@ -30,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
-            android:text="okhttp"
+            tools:text="okhttp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/avatarImageView"
@@ -42,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="square/okhttp"
+            tools:text="square/okhttp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/nameTextView"
@@ -54,6 +59,7 @@
             android:layout_height="24dp"
             android:layout_marginTop="24dp"
             android:src="@drawable/ic_grade"
+            android:contentDescription="@string/ctd_stars"
             app:layout_constraintStart_toStartOf="@+id/fullnameTextView"
             app:layout_constraintTop_toBottomOf="@+id/fullnameTextView" />
 
@@ -62,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="200"
+            tools:text="200"
             app:layout_constraintBottom_toBottomOf="@+id/gradeImageView"
             app:layout_constraintStart_toEndOf="@+id/gradeImageView"
             app:layout_constraintTop_toTopOf="@+id/gradeImageView" />
@@ -73,6 +79,7 @@
             android:layout_height="24dp"
             android:layout_marginStart="32dp"
             android:src="@drawable/ic_fork_right"
+            android:contentDescription="@string/ctd_forks"
             app:layout_constraintBottom_toBottomOf="@+id/gradeTextView"
             app:layout_constraintStart_toEndOf="@+id/gradeTextView"
             app:layout_constraintTop_toTopOf="@+id/gradeTextView" />
@@ -82,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="200"
+            tools:text="200"
             app:layout_constraintBottom_toBottomOf="@+id/forkImageView"
             app:layout_constraintStart_toEndOf="@+id/forkImageView"
             app:layout_constraintTop_toTopOf="@+id/forkImageView" />
