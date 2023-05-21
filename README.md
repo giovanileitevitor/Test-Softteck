@@ -1,6 +1,6 @@
 # Github Explorer
 
-Hi Dev / Sir ‍♂️
+Hi Dev / Sir \uD83D\uDE0A
 
 O **Github Explorer** é um aplicativo simples para listar os repositórios do GitHub com mais estrelas e com código Kotlin.
 
