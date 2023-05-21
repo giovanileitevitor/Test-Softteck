@@ -10,17 +10,27 @@ import com.githubexplorer.features.projectlist.data.repository.ProjectsListRepos
 import com.githubexplorer.features.projectlist.data.service.ProjectsListService
 import com.githubexplorer.features.projectlist.domain.usecase.GetProjectListUseCase
 import com.githubexplorer.features.projectlist.domain.repository.ProjectsListRepository
-import com.githubexplorer.features.projectlist.presentation.viewmodel.ProjectListViewModel
+import com.githubexplorer.features.projectlist.ui.viewmodel.ProjectListViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val projectListModule = module {
-    factory<RemoteBuilder> { RetrofitBuilderImpl() }
-    factory<ProjectsListService> {
-        get<RemoteBuilder>().build().create(ProjectsListService::class.java)
-    }
-    factory<PagingSource<Int, ProjectItemResponse>> { ProjectsListPagingSource(service = get()) }
 
+    //ViewModel Injector
+    viewModel {
+        ProjectListViewModel(
+            projectListUseCase = GetProjectListUseCase(
+                repository = get()
+            )
+        )
+    }
+
+    //Paging Source Injector
+    factory<PagingSource<Int, ProjectItemResponse>> {
+        ProjectsListPagingSource(service = get())
+    }
+
+    //Data Source / Repository Injector
     factory<ProjectsListRepository> {
         ProjectsListRepositoryImpl(
             service = get(),
@@ -28,7 +38,14 @@ val projectListModule = module {
         )
     }
 
-    viewModel {
-        ProjectListViewModel(getProjectListUseCase = GetProjectListUseCase(repository = get()))
+    //Api Injector
+    factory<ProjectsListService> {
+        get<RemoteBuilder>().build().create(ProjectsListService::class.java)
     }
+
+    //Retrofit Injector
+    factory<RemoteBuilder> {
+        RetrofitBuilderImpl()
+    }
+
 }

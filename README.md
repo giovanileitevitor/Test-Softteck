@@ -1,6 +1,6 @@
 # Github Explorer
 
-Olá pessoa desenvolvedora! 👷🏽‍♂️
+Hi Dev / Sir ‍♂️
 
 O **Github Explorer** é um aplicativo simples para listar os repositórios do GitHub com mais estrelas e com código Kotlin.
 
@@ -35,3 +35,10 @@ Se a chamada for realizada com sucesso, será exibida uma lista com os repositó
 Se ocorrer uma falha no carregamento da lista, será exibida uma mensagem de erro com um botão para tentar novamente.
 
 Se o device for rotacionado, o aplicativo mantém o estado da tela.
+
+
+## Testes Unitários via Gradle / Esteira
+
+Para realizar a execução dos testes unitários via comando gradle / esteira, basta digitar no terminal do projeto o comando:
+- gradlew test --info
+

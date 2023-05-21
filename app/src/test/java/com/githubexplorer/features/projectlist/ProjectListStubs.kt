@@ -14,8 +14,8 @@ object ProjectListStubs {
             name = "okhttp",
             fullName = "square/okhttp",
             isPrivate = false,
-            starsCount = 49999,
-            forksCount = 74844,
+            starsCount = 11111,
+            forksCount = 99999,
             ownerAvatarUrl = "url"
         ),
         ProjectItem(
@@ -23,8 +23,8 @@ object ProjectListStubs {
             name = "kotlin",
             fullName = "JetBrains/kotlin",
             isPrivate = false,
-            starsCount = 49999,
-            forksCount = 74844,
+            starsCount = 666333,
+            forksCount = 111222,
             ownerAvatarUrl = "url"
         )
     )
@@ -36,8 +36,8 @@ object ProjectListStubs {
                 name = "okhttp",
                 fullName = "square/okhttp",
                 isPrivate = false,
-                starsCount = 49999,
-                forksCount = 74844,
+                starsCount = 12345,
+                forksCount = 54321,
                 owner = ProjectOwner(
                     avatarUrl = "url"
                 )
@@ -47,8 +47,8 @@ object ProjectListStubs {
                 name = "kotlin",
                 fullName = "JetBrains/kotlin",
                 isPrivate = false,
-                starsCount = 49999,
-                forksCount = 74844,
+                starsCount = 223344,
+                forksCount = 443322,
                 owner = ProjectOwner(
                     avatarUrl = "url"
                 )
