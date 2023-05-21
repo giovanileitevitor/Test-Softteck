@@ -22,6 +22,8 @@ A tela 1 ou tela inicial pode apresentar três estados distintos:
 
 <img width=25% height=25% alt="print home" src="https://user-images.githubusercontent.com/27828713/239715949-4d260c65-c661-4a71-9d92-79a067f35397.jpeg">
 
+<img width=25% height=25% alt="print users" src="https://user-images.githubusercontent.com/27828713/239716102-36a6f6ac-0d05-4ec6-85a0-04e7a9e8e813.jpeg">
+
 ##### Estado de carregamento
 
 Ao entrar na tela o carregamento da lista é iniciado, exibindo um loading para o usuário.
