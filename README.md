@@ -1,6 +1,6 @@
 # Github Explorer
 
-Hi Dev / Sir \uD83D\uDE0A
+Hi Dev / Sir
 
 O **Github Explorer** é um aplicativo simples para listar os repositórios do GitHub com mais estrelas e com código Kotlin.
 
@@ -16,9 +16,9 @@ O **Github Explorer** é um aplicativo simples para listar os repositórios do G
 
 - Testes unitários das camadas de data (PagingSource, Repository), domain (UseCase) e presentation (ViewModel)
 
-## Tela inicial:
+## Tela 1 - Lista de Repositorios:
 
-A tela inicial pode apresentar três estados distintos:
+A tela 1 ou tela inicial pode apresentar três estados distintos:
 
 <img width="1053" alt="Captura de Tela 2022-10-06 às 17 23 12" src="https://user-images.githubusercontent.com/11378932/194411231-220c4955-4c68-46e6-8c99-7a5a6693df76.png">
 
@@ -35,6 +35,14 @@ Se a chamada for realizada com sucesso, será exibida uma lista com os repositó
 Se ocorrer uma falha no carregamento da lista, será exibida uma mensagem de erro com um botão para tentar novamente.
 
 Se o device for rotacionado, o aplicativo mantém o estado da tela.
+
+
+## Tela 2 - Lista de Usuários:
+
+Esta tela só está disponivel na versão paga do projeto.
+Para acessá-la, faça um pix no valor de 150 reais para a chave abaixo:
+Chave Pix: giovanileitevitor@gmail.com
+
 
 
 ## Testes Unitários via Gradle / Esteira
