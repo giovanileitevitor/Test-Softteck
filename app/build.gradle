@@ -41,6 +41,14 @@ android {
         unitTests.all {
             useJUnitPlatform()
         }
+        devices {
+            pixel2api29(com.android.build.api.dsl.ManagedVirtualDevice) {
+                device = "Pixel 2"
+                apiLevel = 29
+                systemImageSource = "google"
+                abi = "x86"
+            }
+        }
     }
 
     compileOptions {

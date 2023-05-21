@@ -39,7 +39,7 @@ Se o device for rotacionado, o aplicativo mantém o estado da tela.
 
 ## Tela 2 - Lista de Usuários:
 
-Esta tela só está disponivel na versão paga do projeto. \nPara acessá-la, basta apontar a camera do celular e efetuar um pix no valor de 150 reais para o QR Code abaixo.
+Esta tela só está disponivel na versão paga do projeto. Para acessá-la, basta apontar a camera do celular e efetuar um pix no valor de 150 reais para o QR Code abaixo.
 
 <img width="305" alt="Captura de Tela 2023-05-20 às 21 56 01" src="https://github.com/giovanileitevitor/Test-Softteck/assets/27828713/c5c426c9-f086-433b-a4be-e6f4d2ce1ba2">
 
@@ -47,6 +47,14 @@ Esta tela só está disponivel na versão paga do projeto. \nPara acessá-la, ba
 
 ## Testes Unitários via Gradle / Esteira
 
-Para realizar a execução dos testes unitários via comando gradle / esteira, basta digitar no terminal do projeto o comando:
-- gradlew test --info
+Para realizar a execução dos testes unitários via comando gradle / esteira, basta digitar no terminal do projeto :
+- ./gradlew test --info
 
+
+## Testes Instrumentados via Gradle
+
+Para realizar a execuçao de testes instrumentados via comando gradle, basta digitar no terminal do projeto :
+- ./gradlew -Pandroid.experimental.androidTest.useUnifiedTestPlatform=true pixel2api29DebugAndroidTest
+
+
+### E lembre-se: TODOS OS CAMINHOS LEVAM A ROMA.
