@@ -62,4 +62,4 @@ Para realizar a execuçao de testes instrumentados via comando gradle, basta dig
 
 ### Contato:
 - Email: ✉︎ giovanileitevitor@gmail.com
-- Skipe: ⌨️ skype: giovanileitevitor
+- Skype: ⌨️ giovanileitevitor
